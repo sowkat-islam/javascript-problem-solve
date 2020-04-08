@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>wellcome</title>
+	<link rel="stylesheet" href="">
+	<style>
+
+	</style>
+</head>
+<body>
+
+	<input type="number" id="halkata" placeholder="Enter  amount .....">
+	<button onclick="halkata()">Enter result</button>
+	<br><br>
+	<strong style="display: inline-block; background: red;">Result  : </strong><p style="display: inline;" id="resultBox"></p>
+	 
+	 	<img id="img" src="" alt="">
+	 
+	<script type="text/javascript">
+		   var TK=document.getElementById("halkata").value;
+		   function halkata(){
+		   	   if(TK>=3000){
+		   	   	document.getElementById("resultBox").innerHTML=" আরে মিয়া আগে মিষ্টি  খাও😋,সময় মতো বাকি টাকাটা দিয়া দিও";
+		   	   	document.getElementById("img").src="https://www.upoharbd.com/images/uploads/Pranhara_rosh.jpg";
+		   	   }
+		   	   else{
+		   	   	document.getElementById("resultBox").innerHTML=" আরে এত্ত কম দিলে হবে আগামী ২ দিনের ভিতরে বাকি টাকা দিতে হবে।";
+		   	   
+		   	   }
+		   }
+
+
+	</script>
+</body>
+</html> 
